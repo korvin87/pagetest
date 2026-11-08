@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://tamaramadebadze.ru/sitemap.xml
+Sitemap: https://www.tamaramadebadze.ru/sitemap.xml
