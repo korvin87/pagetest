@@ -294,36 +294,58 @@ footer .big .script{display:block;font-size:.6em;margin-bottom:6px}
       "areaServed": [
         {"@type": "City", "name": "Москва"},
         {"@type": "VirtualLocation", "name": "Онлайн"}
-      ],
-      "makesOffer": [
-        {
-          "@type": "Offer",
-          "name": "Песня в подарок",
-          "description": "Запись одной песни на студии с продюсерским сопровождением Тамары",
-          "price": "50000",
-          "priceCurrency": "RUB",
-          "availability": "https://schema.org/InStock",
-          "url": "https://tamaramadebadze.ru/#certs"
-        },
-        {
-          "@type": "Offer",
-          "name": "3 месяца занятий вокалом",
-          "description": "Персональная программа уроков с еженедельными встречами",
-          "price": "75000",
-          "priceCurrency": "RUB",
-          "availability": "https://schema.org/InStock",
-          "url": "https://tamaramadebadze.ru/#certs"
-        },
-        {
-          "@type": "Offer",
-          "name": "3 месяца занятий и запись песни",
-          "description": "Полный пакет: курс занятий и финальная студийная запись песни ученика",
-          "price": "100000",
-          "priceCurrency": "RUB",
-          "availability": "https://schema.org/InStock",
-          "url": "https://tamaramadebadze.ru/#certs"
-        }
       ]
+    },
+    {
+      "@type": "Product",
+      "@id": "https://tamaramadebadze.ru/#gift-song",
+      "name": "Подарочный сертификат: песня в подарок",
+      "description": "Запись одной песни на студии с продюсерским сопровождением Тамары Мадебадзе.",
+      "image": "https://tamaramadebadze.ru/img/cert-song.jpg",
+      "brand": {"@id": "https://tamaramadebadze.ru/#person"},
+      "category": "Подарочный сертификат",
+      "offers": {
+        "@type": "Offer",
+        "price": "50000",
+        "priceCurrency": "RUB",
+        "availability": "https://schema.org/InStock",
+        "url": "https://tamaramadebadze.ru/#certs",
+        "seller": {"@id": "https://tamaramadebadze.ru/#person"}
+      }
+    },
+    {
+      "@type": "Product",
+      "@id": "https://tamaramadebadze.ru/#gift-lessons",
+      "name": "Подарочный сертификат: 3 месяца занятий вокалом",
+      "description": "Персональная программа уроков вокала с Тамарой Мадебадзе — еженедельные занятия в течение трёх месяцев.",
+      "image": "https://tamaramadebadze.ru/img/cert-lessons.jpg",
+      "brand": {"@id": "https://tamaramadebadze.ru/#person"},
+      "category": "Подарочный сертификат",
+      "offers": {
+        "@type": "Offer",
+        "price": "75000",
+        "priceCurrency": "RUB",
+        "availability": "https://schema.org/InStock",
+        "url": "https://tamaramadebadze.ru/#certs",
+        "seller": {"@id": "https://tamaramadebadze.ru/#person"}
+      }
+    },
+    {
+      "@type": "Product",
+      "@id": "https://tamaramadebadze.ru/#gift-full",
+      "name": "Подарочный сертификат: 3 месяца занятий и запись песни",
+      "description": "Полный пакет: трёхмесячный курс занятий вокалом и финальная студийная запись песни ученика.",
+      "image": "https://tamaramadebadze.ru/img/cert-full.jpg",
+      "brand": {"@id": "https://tamaramadebadze.ru/#person"},
+      "category": "Подарочный сертификат",
+      "offers": {
+        "@type": "Offer",
+        "price": "100000",
+        "priceCurrency": "RUB",
+        "availability": "https://schema.org/InStock",
+        "url": "https://tamaramadebadze.ru/#certs",
+        "seller": {"@id": "https://tamaramadebadze.ru/#person"}
+      }
     }
   ]
 }
